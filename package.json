@@ -1,0 +1,33 @@
+{
+  "name": "design-system",
+  "version": "1.0.0",
+  "description": "Testign out how to create dsign system.",
+  "main": "index.js",
+  "dependencies": {
+    "serve": "^10.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "start": "serve",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scionar/design-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scionar/design-system/issues"
+  },
+  "homepage": "https://github.com/Scionar/design-system#readme"
+}
