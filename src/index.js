@@ -1,9 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Button } from './components';
+import Button from './Button';
 
-const root = document.getElementById('root');
-ReactDOM.render(
-  <Button>Click me</Button>,
-  root
-);
+export { Button };
