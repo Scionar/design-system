@@ -1,13 +1,15 @@
 # Design system
 
-Testign out how to create dsign system.
+Testing out how to create a design system.
 
-## Primary goals
+## Goals
 
-* Create React design library
-* Set styleguide environment (Example Storybook)
-* Tests
+### Primary goals
 
-## Optional goals
+- Create React design library
+- Set styleguide environment (Example Storybook)
+- Tests
 
-* Take in account projects which are not using React
+### Optional goals
+
+- Take in account projects which are not using React
