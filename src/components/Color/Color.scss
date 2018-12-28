@@ -1,0 +1,61 @@
+@import "../../variables";
+
+.color {
+  @include depth(S);
+  transition: box-shadow 0.5s;
+  border-radius: 5px;
+  display: inline-flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+
+  &:hover {
+    @include depth(M);
+  }
+}
+
+.color--black {
+  background-color: $color__black;
+  color: $color__white;
+}
+
+.color--mine-shaft {
+  background-color: $color__mine-shaft;
+  color: $color__white;
+}
+
+.color--dove-gray {
+  background-color: $color__dove-gray;
+  color: $color__white;
+}
+
+.color--dusty-gray {
+  background-color: $color__dusty-gray;
+}
+
+.color--gallery {
+  background-color: $color__gallery;
+}
+
+.color--alabaster {
+  background-color: $color__alabaster;
+}
+
+.color--white {
+  background-color: $color__white;
+}
+
+.color--indigo {
+  background-color: $color__indigo;
+  color: $color__white;
+}
+
+.color--pastel-green {
+  background-color: $color__pastel-green;
+}
+
+.color--chestnut-rose {
+  background-color: $color__chestnut-rose;
+  color: $color__white;
+}

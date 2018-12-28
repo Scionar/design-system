@@ -1,0 +1,22 @@
+// Colors
+//
+// Use http://chir.ag/projects/name-that-color/ to give color names.
+
+$color__black: #000;
+$color__mine-shaft: #333;
+$color__dove-gray: #666;
+$color__dusty-gray: #999;
+$color__gallery: #EAEAEA;
+$color__alabaster: #FAFAFA;
+$color__white: #FFF;
+$color__indigo: #4963C5;
+$color__pastel-green: #72E071;
+$color__chestnut-rose: #CF4F70;
+
+
+// Depth
+
+@mixin depth($level) {
+  @if ($level == S) { box-shadow: rgba($color__black, 0.12) 0px 2px 5px 0px; }
+  @if ($level == M) { box-shadow: rgba($color__black, 0.12) 0px 6px 15px 0px; }
+}

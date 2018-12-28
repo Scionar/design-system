@@ -7,5 +7,5 @@
 ## Disabled
 
 ```js
-<Button className="button--disabled">Push Me</Button>
+<Button modifier="disabled">Push Me</Button>
 ```
