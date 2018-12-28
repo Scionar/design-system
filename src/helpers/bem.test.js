@@ -26,4 +26,16 @@ describe('bem', () => {
       'button button--default button--disabled'
     );
   });
+
+  it('separates array parameters', () => {
+    expect(bem('button', ['positive', 'done'], 'default disabled')).toEqual(
+      'button button--positive button--done button--default button--disabled'
+    );
+  });
+
+  it('does not add falsy array values', () => {
+    expect(bem('button', ['positive', false])).toEqual(
+      'button button--positive'
+    );
+  });
 });
