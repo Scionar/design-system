@@ -1,15 +1,33 @@
-.button {
-  background-color: #FFF;
-  border: 1px solid #000;
-  border-radius: 2px;
-  color: #000;
+@import '../../variables';
 
-  &:active {
-    
+.button {
+  @include depth(M);
+  background-color: $color__indigo;
+  border: none;
+  border-radius: 8px;
+  color: $color__white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 16px;
+  transition: box-shadow 0.5s;
+  min-width: 100px;
+
+  &:hover {
+    @include depth(S);
   }
 }
 
+.button--positive {
+  background-color: $color__pastel-green;
+  color: $color__white;
+}
+
+.button--negative {
+  background-color: $color__chestnut-rose;
+  color: $color__white;
+}
+
 .button--disabled {
-  border: 1px solid #999;
-  color: #999;
+  background-color: $color__dusty-gray;
+  color: $color__mine-shaft;
 }
