@@ -17,6 +17,7 @@ $color__chestnut-rose: #CF4F70;
 // Depth
 
 @mixin depth($level) {
-  @if ($level == S) { box-shadow: rgba($color__black, 0.12) 0px 2px 5px 0px; }
-  @if ($level == M) { box-shadow: rgba($color__black, 0.12) 0px 6px 15px 0px; }
+  @if ($level == S) { box-shadow: rgba($color__black, 0.2) 0px 2px 5px 0px; }
+  @if ($level == M) { box-shadow: rgba($color__black, 0.2) 0px 6px 15px 0px; }
+  @if ($level == L) { box-shadow: rgba($color__black, 0.2) 0px 12px 25px 0px; }
 }

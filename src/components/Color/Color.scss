@@ -1,7 +1,7 @@
 @import "../../variables";
 
 .color {
-  @include depth(S);
+  @include depth(M);
   transition: box-shadow 0.5s;
   border-radius: 5px;
   display: inline-flex;
@@ -11,7 +11,7 @@
   width: 100px;
 
   &:hover {
-    @include depth(M);
+    @include depth(L);
   }
 }
 
